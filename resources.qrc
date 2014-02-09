@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/bluez/obex/agent">
+        <file alias="icon">icons/obexagent.svg</file>
+    </qresource>
+</RCC>

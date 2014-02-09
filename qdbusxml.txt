@@ -1,0 +1,2 @@
+~/Qt5.2.0/5.2.0/gcc/bin/qdbusxml2cpp -v -a agent_adaptor.h agent.xml
+~/Qt5.2.0/5.2.0/gcc/bin/qdbusxml2cpp -v -p transfer_interface.h transfer.xml

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.bluez.obex.Transfer1">
+    <method name="Cancel" />
+    <property type="s" name="Status" access="read"> </property>
+    <property type="o" name="Session" access="read"> </property>
+    <property type="s" name="Name" access="read"> </property>
+    <property type="s" name="Type" access="read"> </property>
+    <property type="t" name="Time" access="read"> </property>
+    <property type="t" name="Size" access="read"> </property>
+    <property type="t" name="Transferred" access="read"> </property>
+    <property type="s" name="Filename" access="read"> </property>
+   </interface>
+</node>
