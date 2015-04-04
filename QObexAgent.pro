@@ -8,7 +8,7 @@ QT       += dbus core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QObexAgent
+TARGET = qobexagent
 TEMPLATE = app
 
 DBUS_ADAPTORS += dbus/org.bluez.obex.Agent1.xml
@@ -43,3 +43,6 @@ OTHER_FILES += \
     dbus/org.bluez.obex.Session1.xml \
     dbus/org.bluez.obex.Transfer1.xml \
     dbus/org.bluez.obex.Client1.xml
+
+target.path = /usr/bin
+INSTALLS += target

@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-    bool r, test;
+    bool r; //, test;
 
     QApplication app(argc, argv);
     QApplication::setQuitOnLastWindowClosed(false);
